@@ -1,23 +1,28 @@
-<!--An input box for adding new tasks.-->
-<!--An "Add Task" button.-->
-<!--A list container to display tasks-->
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, Initial-scale:1.0" />
-    <link rel="stylesheet" href="css.style" />
-    <title>To Do List</title>
-  </head>
-</html>
-
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-    <div class="mainBox"></div>
+  <h2>Select type of Conversion</h2>
 
-    <input type="text" class="Input" placeholder="Enter a task">
+  <!-- Celsius to Fahrenheit -->
+  <div class="C-F_box">
+      °C → °F
+      <div class="converter-container"></div>
+  </div>
 
-    <div class="theContainer"></div>
+  <!-- Fahrenheit to Celsius -->
+  <div class="F-C_box">
+      °F → °C
+      <div class="converter-container"></div>
+  </div>
 
-
+  <script src="script.js"></script>
 </body>
+</html>
